@@ -1,3 +1,7 @@
+#container{
+  position:absolute;
+}
+
 #canvus{
     border:1px solid black;
     padding: 0;
@@ -5,7 +9,7 @@
     margin-top:20px;
     margin-bottom:20px;
     display: block;
-    width: 60vmax;
+    width: 90vmin;
     border-radius:50%;
     background-color: white;
 
@@ -15,6 +19,7 @@ body{
     font-family: 'Nunito', sans-serif;
     background-color: white;
     overflow-x: hidden;
+    width: 100vw;
 
 }
 .circles{
@@ -74,16 +79,16 @@ h2{
   }
 
 .activity{
-  height: 50vw;
-  width: 50vw;
+  height: 40vw;
+  width: 40vw;
   margin:-20px 0px;
   border-radius:50%;
   background-color:white;
 }
 
 .activity::before{
-  height:50vw;
-  width:50vw;
+  height:40vw;
+  width:40vw;
   position:absolute;
   content:"";
   background:white;
@@ -91,6 +96,11 @@ h2{
   border-radius:50%;
   margin:0px 0px;
 }
+
+.activity:hover::before {
+  background-color: transparent;
+}
+
 
 #aboutMe{
     display: grid;
@@ -100,8 +110,7 @@ h2{
     "circle1 text1"
     "text2 circle2"
     "circle3 text3";
-    width: calc( 100vw - px );
-    //background-color:#BFD9FF;
+    width: calc(100vw);
     background-color:white;
     padding: 100px 50px;
 }
@@ -145,13 +154,13 @@ h2{
 }
 
 #bitByBitAboutMe{
-  margin-top: 50%;
+  margin-top: 20%;
   margin-left: 30%;
 
 }
 
 #codingAboutMe{
-  margin-top: 50%;
+  margin-top: 20%;
   margin-left: 30%;
 }
 
@@ -177,9 +186,9 @@ h2{
 @media only screen and (max-width: 600px) {
     #aboutMe {
     display:block;
-    width:calc( 100vw - px );
+    width: calc( 100vw  );
     background-color:#fff;
-    height:200vh;
+    height: 100%
     }
     
     .activity{
@@ -201,10 +210,38 @@ h2{
     }
 
     .textActvity{
-      margin-left:50%;
+      margin-left:40%;
+      width: 100%;
+    }
+    
+    .aboutmeP{
+      position: center;
+    }
+    #footer {
+      position: relative;
+      width: 100%;
+    }
+    #AerialArtsAboutMe{
+      margin-left: 70%;
+    }
+    #bitByBitAboutMe {
+      margin-left: 70%;
+    }
+    #codingAboutMe {
+      margin-left: 70%;
     }
 
 
+}
+
+#footer {
+  border-top: 4px dotted #1F57AB;
+  position:absolute;
+ width:100%;
+}
+
+#copyWrite{
+  text-align: center;
 }
 
 
@@ -227,6 +264,34 @@ h2{
     left:10%;
 }
 
+#connect{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+#email{
+  padding-left: 5%;
+  padding-right:5%;
+}
+
+#linkedin{
+  padding-left: 5%;
+  padding-right:5%;
+}
+
+#letsConnect{
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#resume{
+  font-size: 40px;
+text-align: center;
+font-weight: bold;
+
+}
 
 /*got below code from https://codepen.io/logrithumn/pen/yMwYXX */
 .icon {
