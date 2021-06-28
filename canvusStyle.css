@@ -140,16 +140,18 @@ h2{
     background-image: url("aerialArtsPhoto.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 
 #aerialArtsText{
   grid-area: text2;
   padding-right:20vw;
+  
 
 }
 
 #AerialArtsAboutMe{
-  margin-top:50%;
+  margin-top:20%;
   margin-left: 15%;
 }
 
@@ -230,7 +232,9 @@ h2{
     #codingAboutMe {
       margin-left: 70%;
     }
-
+    #aerialArtsVideo{
+        width: 100%;
+    }
 
 }
 
@@ -273,24 +277,94 @@ h2{
 #email{
   padding-left: 5%;
   padding-right:5%;
+  border-radius: 50%;
+  border-style: solid;
+  width: 10%;
+  text-align: center;
+  padding: 1%;
+  font-weight: bold;
+  border-color: black;
+  background-color: white;
 }
 
 #linkedin{
   padding-left: 5%;
   padding-right:5%;
+  border-radius: 50%;
+  border-style: solid;
+  width: 10%;
+  text-align: center;
+  padding: 1%;
+  font-weight: bold;
+  border-color:black;
+  background-color: white;
+}
+
+#oval1{
+  width: 10%;
+  border-style: solid;
+  border-radius: 50%;
+  background-color: #7DAFFA;
+}
+
+#oval2{
+  width: 10%;
+  border-style: solid;
+  Border-radius: 50%;
+  background-color: #7DAFFA;
+
+}
+
+#aerialArtsVideo{
+  position: relative;
+  height: auto;
+  margin-left: 25%;
+  width: 80%;
 }
 
 #letsConnect{
   text-align: center;
   font-size: 40px;
   font-weight: bold;
+  font-family: 'Rum Raisin', sans-serif;
+
 }
 
 #resume{
   font-size: 40px;
 text-align: center;
 font-weight: bold;
+font-family: 'Rum Raisin', sans-serif;
+}
 
+#resumeSection{
+  display: flex;
+  justify-content: center;
+}
+
+#resumeButton{
+  border-radius: 50%;
+  border-style: solid;
+  border-color: black;
+  width: 8%;
+  height: 8%;
+  padding: 2%;
+  margin-bottom: 5%;
+  background-color: white;
+}
+
+#resumeWords{
+  text-align: center;
+  
+}
+
+#contactMe{
+  margin-bottom: 10%;
+}
+
+#bottomPartOfPage{
+  background-color: #e7f1ff;
+  padding-top: 2%;
 }
 
 /*got below code from https://codepen.io/logrithumn/pen/yMwYXX */

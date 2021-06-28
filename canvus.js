@@ -83,7 +83,7 @@ function animate(){
     c.strokeStyle = "#1F54AB";
     c.fillStyle = "#1F54AB";
     c.textAlign = "center";
-    c.fillText("Hey,", canvus.width/2, canvus.height/2.3);
+    c.fillText("Hello,", canvus.width/2, canvus.height/2.3);
     c.fillText("I'm Devin Von Arx", canvus.width/2, canvus.height/1.7);
     //c.strokeText("Devin Von Arx", canvus.width/2, canvus.height/2);
     requestAnimationFrame(animate);
