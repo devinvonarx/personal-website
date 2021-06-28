@@ -355,7 +355,8 @@ font-family: 'Rum Raisin', sans-serif;
 
 #resumeWords{
   text-align: center;
-  
+  font-weight: bold;
+
 }
 
 #contactMe{
