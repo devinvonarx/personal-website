@@ -378,8 +378,14 @@ font-family: 'Rum Raisin', sans-serif;
 }
 
 @keyframes thickBorders {
-  from {border-width: 5}
-  to {background-color: 15}
+  from {border-width: medium}
+  to {border-width: thick}
+}
+
+.bottomButton:hover{
+  border-width: medium;
+  animation-name: thickBorders;
+  animation-duration: 4s;
 }
 
 /*got below code from https://codepen.io/logrithumn/pen/yMwYXX */
