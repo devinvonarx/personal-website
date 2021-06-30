@@ -68,6 +68,14 @@ body{
     background-color:#fff;
 }
 
+a:link {
+  color: #1F57AB;
+}
+
+a:visited {
+  color: #1F57AB;
+}
+
 h2{
     margin:20px;
     text-align: center;
@@ -367,6 +375,11 @@ font-family: 'Rum Raisin', sans-serif;
 #bottomPartOfPage{
   background-color: #e7f1ff;
   padding-top: 2%;
+}
+
+@keyframes thickBorders {
+  from {border-width: 5}
+  to {background-color: 15}
 }
 
 /*got below code from https://codepen.io/logrithumn/pen/yMwYXX */
