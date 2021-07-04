@@ -280,6 +280,7 @@ h2{
   display: flex;
   justify-content: center;
   margin: auto;
+  align-items: center;
 }
 
 #email{
@@ -287,7 +288,8 @@ h2{
   padding-right:5%;
   border-radius: 50%;
   border-style: solid;
-  width: 10%;
+  width: 8vw;
+  height: 8vw;
   text-align: center;
   padding: 1%;
   font-weight: bold;
@@ -300,7 +302,8 @@ h2{
   padding-right:5%;
   border-radius: 50%;
   border-style: solid;
-  width: 10%;
+  width: 8vw;
+  height: 8vw;
   text-align: center;
   padding: 1%;
   font-weight: bold;
@@ -309,18 +312,19 @@ h2{
 }
 
 #oval1{
-  width: 10%;
   border-style: solid;
   border-radius: 50%;
   background-color: #7DAFFA;
+  width: 8vw;
+  height: 8vw;
 }
 
 #oval2{
-  width: 10%;
   border-style: solid;
   Border-radius: 50%;
   background-color: #7DAFFA;
-
+  width: 8vw;
+  height: 8vw;
 }
 
 #aerialArtsVideo{
@@ -354,8 +358,8 @@ font-family: 'Rum Raisin', sans-serif;
   border-radius: 50%;
   border-style: solid;
   border-color: black;
-  width: 8%;
-  height: 8%;
+  width: 5vw;
+  height: 5vw;
   padding: 2%;
   margin-bottom: 5%;
   background-color: white;
@@ -382,10 +386,21 @@ font-family: 'Rum Raisin', sans-serif;
   to {border-width: thick}
 }
 
+.drawing{
+ height: 7vw;
+}
+.bottomButton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .bottomButton:hover{
   border-width: medium;
   animation-name: thickBorders;
-  animation-duration: 4s;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
 }
 
 /*got below code from https://codepen.io/logrithumn/pen/yMwYXX */
