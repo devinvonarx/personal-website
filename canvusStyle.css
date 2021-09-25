@@ -239,7 +239,7 @@ h2{
     #codingAboutMe {
       margin-left: 70%;
     }
-    #aerialArtsVideo{
+    .aerialArtsVideo{
         width: 100%;
     }
 
@@ -345,11 +345,15 @@ h2{
   height: 8vw;
 }
 
-#aerialArtsVideo{
+#circusVideos{
+  display: flex;
+}
+
+.aerialArtsVideo{
   position: relative;
   height: auto;
-  margin-left: 25%;
-  width: 80%;
+  margin-left: 2%;
+  width: 63%;
 }
 
 #letsConnect{
